@@ -38,6 +38,7 @@ p {
 
 .main-header > .main-header-content {
 	color: #f8f8f8;
+	overflow: auto;
 }
 
 /* ========== About ========== */
@@ -45,11 +46,27 @@ p {
 .about {
 	height: 700px;
 	width: 100%;
-	margin: 0px 10px;
 	padding: 150px 100px;
-
 }
 
+/* ========== Skill Set ========== */
+
+.skillset {
+	height: 700px;
+	width: 100%;
+	padding: 150px 100px;
+	background-color: rgb(51, 122, 183);
+	color: #f8f8f8;
+}
+
+.circle {
+	height: 150px;
+	width: 150px;
+	background-color: #f8f8f8;
+	color: rgb(51, 122, 183);;
+	border-radius: 50%;
+
+}
 
 /* ========== Custom Vertical Center ========== */
 
