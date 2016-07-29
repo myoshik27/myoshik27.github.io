@@ -40,6 +40,15 @@ p {
 	color: #f8f8f8;
 }
 
+/* ========== About ========== */
+
+.about {
+	height: 700px;
+	width: 100%;
+	margin: 0px 10px;
+	padding: 150px 100px;
+
+}
 
 
 /* ========== Custom Vertical Center ========== */
