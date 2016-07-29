@@ -63,9 +63,24 @@ p {
 	height: 150px;
 	width: 150px;
 	background-color: #f8f8f8;
-	color: rgb(51, 122, 183);;
+	color: rgb(51, 122, 183);
 	border-radius: 50%;
 
+}
+
+/* ========== Portfolio ========== */
+
+.portfolio {
+	height: 700px;
+	width: 100%;
+	padding: 150px 100px;
+}
+
+.box {
+	height: 300px;
+	width: 300px;
+	background-color: rgb(51, 122, 183);
+	color: #f8f8f8;
 }
 
 /* ========== Custom Vertical Center ========== */
@@ -77,4 +92,11 @@ p {
 .vertical-center-child {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+/* ========== Custom Row ========== */
+
+.row {
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
