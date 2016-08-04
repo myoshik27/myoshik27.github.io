@@ -42,7 +42,6 @@ p {
 	overflow: auto;
 }
 
-
 /* ========== About ========== */
 
 .about {
@@ -58,30 +57,29 @@ p {
 }
 
 
+.about p {
+	font-size: 24px;
+}
 
 /* ========== Skill Set ========== */
 
 .skillset {
 	width: 100%;
-	padding: 150px 100px;
+	padding: 75px 100px;
 	background-color: rgb(51, 122, 183);
 	color: #f8f8f8;
-	min-height: 700px;
 }
 
-.skillset-content {
-	height: 150px;
-	width: 150px;
-	background-color: #f8f8f8;
-	color: rgb(51, 122, 183);
-}
-
-.skillset .skillset-content p {
+.skillset li {
 	font-size: 20px;
 }
 
 .skillset h2, .skillset h3 {
 	margin-top: 5px;
+}
+
+.skillset-content {
+	padding-left: 30px;
 }
 
 /* ========== Portfolio ========== */
