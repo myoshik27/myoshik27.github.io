@@ -15,14 +15,14 @@ h6{
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 60px;
 	letter-spacing: 10px;
 	font-weight: 100;
 	
 }
 
 p {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 /* ========== Main Header ========== */
@@ -31,7 +31,8 @@ p {
 
 	height: 100vh;
 	width: 100%;
-	background: url(../images/city.jpg) no-repeat center center;
+	max-width: 100%;
+	background: url(../images/city.jpg) no-repeat center center scroll;
 	background-size: cover;
 	text-align: center;
 }
@@ -41,22 +42,26 @@ p {
 	overflow: auto;
 }
 
+
 /* ========== About ========== */
 
 .about {
-	height: 700px;
 	width: 100%;
 	padding: 150px 100px;
 }
+.about h2 {
+	margin-top: 5px;
+}
+
 
 /* ========== Skill Set ========== */
 
 .skillset {
-	height: 700px;
 	width: 100%;
 	padding: 150px 100px;
 	background-color: rgb(51, 122, 183);
 	color: #f8f8f8;
+	min-height: 700px;
 }
 
 .circle {
@@ -65,22 +70,39 @@ p {
 	background-color: #f8f8f8;
 	color: rgb(51, 122, 183);
 	border-radius: 50%;
+}
 
+.skillset .circle p {
+	font-size: 20px;
 }
 
 /* ========== Portfolio ========== */
 
 .portfolio {
-	height: 700px;
+	min-height: 1000px;
 	width: 100%;
 	padding: 150px 100px;
 }
 
-.box {
-	height: 300px;
-	width: 300px;
+.portfolio-box {
+	height: 375px;
+	width: 400px;
 	background-color: rgb(51, 122, 183);
 	color: #f8f8f8;
+	margin-bottom: 30px;
+}
+/* ========== Contact ========== */
+
+.contact {
+	height: 700px;
+	width: 100%;
+	background-color: rgb(51, 122, 183);
+	color: #f8f8f8;
+}
+
+img {
+	height: 100px;
+	width: 100px;
 }
 
 /* ========== Custom Vertical Center ========== */
@@ -100,3 +122,23 @@ p {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+
+/* ========== Responsive ========== */ 
+
+@media only screen and (max-width: 767px){
+	h1 {
+		font-size: 40px;
+		letter-spacing: 5px;		
+	}
+	h2 {
+		font-size: 30px;
+	}
+	p {
+		font-size: 20px;
+	}
+
+	.main-header, .about, .skillset, .portfolio {
+		padding: 20px;
+	}
+}
+
