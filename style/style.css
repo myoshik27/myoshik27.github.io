@@ -53,6 +53,10 @@ p {
 .about h2 {
 	margin-top: 5px;
 }
+.about h2 {
+	margin-top: 5px;
+}
+
 
 
 /* ========== Skill Set ========== */
@@ -65,16 +69,27 @@ p {
 	min-height: 700px;
 }
 
-.circle {
+.skillset-content {
 	height: 150px;
 	width: 150px;
 	background-color: #f8f8f8;
 	color: rgb(51, 122, 183);
+<<<<<<< HEAD
 	border-radius: 50%;
 }
 
 .skillset .circle p {
 	font-size: 20px;
+=======
+}
+
+.skillset .skillset-content p {
+	font-size: 20px;
+}
+
+.skillset h2, .skillset h3 {
+	margin-top: 5px;
+>>>>>>> current
 }
 
 /* ========== Portfolio ========== */
@@ -88,6 +103,18 @@ p {
 .portfolio-box {
 	height: 375px;
 	width: 400px;
+<<<<<<< HEAD
+	background-color: rgb(51, 122, 183);
+	color: #f8f8f8;
+	margin-bottom: 30px;
+}
+/* ========== Contact ========== */
+
+.contact {
+	height: 700px;
+	width: 100%;
+=======
+>>>>>>> current
 	background-color: rgb(51, 122, 183);
 	color: #f8f8f8;
 	margin-bottom: 30px;
@@ -99,6 +126,11 @@ p {
 	width: 100%;
 	background-color: rgb(51, 122, 183);
 	color: #f8f8f8;
+}
+
+img {
+	height: 100px;
+	width: 100px;
 }
 
 img {
@@ -141,5 +173,12 @@ img {
 	.main-header, .about, .skillset, .portfolio {
 		padding: 20px;
 	}
+<<<<<<< HEAD
+=======
+
+	.skillset{
+		
+	}
+>>>>>>> current
 }
 
